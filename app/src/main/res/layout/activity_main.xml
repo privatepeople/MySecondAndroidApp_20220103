@@ -6,10 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="220dp"
+        android:layout_width="150dp"
         android:layout_height="120dp"
         android:scaleType="centerCrop"
         android:src="@drawable/nepp_plus_logo01"/>
@@ -17,6 +21,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
         android:text="Email" />
 
     <EditText
