@@ -12,11 +12,19 @@
     android:paddingBottom="20dp"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/nepp_plus_logo01"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nepp_plus_logo01"/>
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,6 +71,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="(선택) 마케팅 정보 수신 동의" />
 
     <Button
