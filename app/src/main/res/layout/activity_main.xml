@@ -30,6 +30,18 @@
         android:hint="비밀번호를 입력해주세요."
         android:inputType="textPassword"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자유 입력 가능(1줄만 입력)"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"/>
+
 
 
 </LinearLayout>
